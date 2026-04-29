@@ -5,8 +5,11 @@ int main()
 {
 
   // 1
+  // int i;
   // for (i = 3; i <= 15; i = i + 2)
   // {
+  //   if (i == 7 || i > 12)
+  //     continue;
   //   printf("ICT: %d \n", i);
   // }
 
@@ -19,9 +22,25 @@ int main()
   // }
   // printf("%d \n", s);
 
-  int x = 100;
-  x = x / 20;
-  printf("%d", (int)pow(x, 2));
+  // int x = 100;
+  // x = x / 20;
+  // printf("%d", (int)pow(x, 2));
 
-  // return 0;
+  // 100
+  // int i;
+  // for (i = 1; i <= 10; i += 2)
+  // {
+  //   printf("ICT: %d \n", i);
+  // }
+
+  // 73
+  int i;
+  for (i = 1; i <= 5; i++)
+  {
+    if (i == 3)
+      continue;
+    printf("HSC Exam:\n");
+  }
+
+  return 0;
 }
